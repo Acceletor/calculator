@@ -22,11 +22,8 @@ function calculate(){
     }
     
 }
-
 function deleteDisplay(){
-    console.log('display.value = '+ typeof display.value)
-    console.log('display.value.toString() = '+ typeof display.value.toString())
-    display.value = display.value.slice(0,-1);
+    display.value = display.value.toString().slice(0,-1);
 }
 
 
